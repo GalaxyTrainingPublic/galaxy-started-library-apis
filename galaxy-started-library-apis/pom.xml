@@ -108,16 +108,19 @@
 			<groupId>com.github.GalaxyTrainingPublic</groupId>
 			<artifactId>galaxy-started-library-utils</artifactId>
 			<version>v1.0.3</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.github.GalaxyTrainingPublic</groupId>
 			<artifactId>galaxy-started-library-security</artifactId>
 			<version>v1.0.0</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.github.GalaxyTrainingPublic</groupId>
 			<artifactId>galaxy-started-library-architecture</artifactId>
 			<version>v1.0.1</version>
+			<scope>compile</scope>
 		</dependency>
 
 		<!-- Testing -->
