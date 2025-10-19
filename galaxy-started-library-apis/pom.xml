@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- ========================================================= -->
+	<!--  Galaxy Training - Starter Library for APIs (JitPack)     -->
+	<!-- ========================================================= -->
+	<groupId>com.github.GalaxyTraining</groupId>
+	<artifactId>galaxy-starter-library-apis</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>Galaxy Starter Library – APIs</name>
+	<description>Spring Boot starter library for standardized API configuration and utilities by Galaxy Training</description>
+	<url>https://github.com/GalaxyTraining/galaxy-starter-library-apis</url>
+
+	<!-- ========================================================= -->
+	<!--  Project Metadata                                          -->
+	<!-- ========================================================= -->
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>anovoa</id>
+			<name>Arístides Novoa Arbildo</name>
+			<email>anovoa@galaxy.edu.pe</email>
+			<organization>Galaxy Training</organization>
+			<organizationUrl>https://appgalaxy.com.pe</organizationUrl>
+			<roles>
+				<role>author</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:https://github.com/GalaxyTraining/galaxy-starter-library-apis.git</connection>
+		<developerConnection>scm:git:ssh://github.com/GalaxyTraining/galaxy-starter-library-apis.git</developerConnection>
+		<url>https://github.com/GalaxyTraining/galaxy-starter-library-apis</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<!-- ========================================================= -->
+	<!--  Properties                                                -->
+	<!-- ========================================================= -->
+	<properties>
+		<java.version>21</java.version>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<spring.boot.version>3.3.5</spring.boot.version>
+		<junit.jupiter.version>5.10.2</junit.jupiter.version>
+		<assertj.core.version>3.26.3</assertj.core.version>
+
+		<maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
+		<maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
+	</properties>
+
+	<!-- ========================================================= -->
+	<!--  Dependency Management                                     -->
+	<!-- ========================================================= -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring.boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<!-- ========================================================= -->
+	<!--  Dependencies                                              -->
+	<!-- ========================================================= -->
+	<dependencies>
+
+		<!-- Spring Boot Autoconfigure -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+		</dependency>
+
+		<!-- Reutilización de librerías Galaxy -->
+		<dependency>
+			<groupId>pe.edu.galaxy.training.java.libs</groupId>
+			<artifactId>galaxy-started-library-utils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>pe.edu.galaxy.training.java.libs</groupId>
+			<artifactId>galaxy-started-library-security</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>pe.edu.galaxy.training.java.libs</groupId>
+			<artifactId>galaxy-started-library-architecture</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>${junit.jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>${assertj.core.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<!-- ========================================================= -->
+	<!--  Build Plugins                                             -->
+	<!-- ========================================================= -->
+	<build>
+		<plugins>
+			<!-- Compilador -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+					<release>${java.version}</release>
+				</configuration>
+			</plugin>
+
+			<!-- JAR con fuentes -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- Javadoc -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.6.3</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- Empaquetado -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven.jar.plugin.version}</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addClasspath>true</addClasspath>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
