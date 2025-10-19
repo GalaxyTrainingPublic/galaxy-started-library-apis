@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c77881a-d619-4e90-82cb-637f54d449e5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="33IffBKGIxSP8wdeuZ2BPQbenuP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AppEncrypt.executor": "Run",
+    "Application.AppEncrytStatic.executor": "Run",
+    "JUnit.AESEncryptionTest.executor": "Run",
+    "JUnit.AESEncryptionUtilTest.decrypt.executor": "Run",
+    "JUnit.AESEncryptionUtilTest.encrypt.executor": "Run",
+    "JUnit.AESEncryptionUtilTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/AmbDesarrollo/Cursos/InTraining/Vive/CURS-000448-CustomsLibs_Publish/galaxy-started-library-apis/galaxy-started-library-apis",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AmbDesarrollo\Cursos\InTraining\Vive\CURS-000448-CustomsLibs\01.-PoCs\galaxy-started-library-core\src\main\java\pe\edu\galaxy\training\java\library\core\util\date" />
+      <recent name="D:\AmbDesarrollo\Cursos\InTraining\Vive\CURS-000448-CustomsLibs\01.-PoCs\galaxy-started-library-core\src\main\java\pe\edu\galaxy\training\java\library\core\sql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pe.edu.galaxy.training.java.library.core.util.date" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AESEncryptionTest">
+    <configuration name="AppEncrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.AppEncrypt" />
+      <module name="lib-encrypt-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppEncrytStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.AppEncrytStatic" />
+      <module name="lib-encrypt-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AESEncryptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lib-encrypt-component-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven" />
+      <option name="MAIN_CLASS_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.AESEncryptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AESEncryptionTest.decrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lib-encrypt-component-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven" />
+      <option name="MAIN_CLASS_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.AESEncryptionTest" />
+      <option name="METHOD_NAME" value="decrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AESEncryptionTest.encrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lib-encrypt-component-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven" />
+      <option name="MAIN_CLASS_NAME" value="pe.edu.galaxy.training.java.libs.lib_encrypt_maven.AESEncryptionTest" />
+      <option name="METHOD_NAME" value="encrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AESEncryptionTest" />
+        <item itemvalue="Application.AppEncrypt" />
+        <item itemvalue="Application.AppEncrytStatic" />
+        <item itemvalue="JUnit.AESEncryptionTest.decrypt" />
+        <item itemvalue="JUnit.AESEncryptionTest.encrypt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c77881a-d619-4e90-82cb-637f54d449e5" name="Changes" comment="" />
+      <created>1759009608427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759009608427</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".gitattributes" />
+  </component>
+</project>

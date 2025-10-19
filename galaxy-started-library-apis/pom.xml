@@ -82,6 +82,17 @@
 	</dependencyManagement>
 
 	<!-- ========================================================= -->
+	<!--  Repository  JitPack                                      -->
+	<!-- ========================================================= -->
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<!-- ========================================================= -->
 	<!--  Dependencies                                              -->
 	<!-- ========================================================= -->
 	<dependencies>
@@ -94,19 +105,19 @@
 
 		<!-- Reutilización de librerías Galaxy -->
 		<dependency>
-			<groupId>pe.edu.galaxy.training.java.libs</groupId>
+			<groupId>com.github.GalaxyTrainingPublic</groupId>
 			<artifactId>galaxy-started-library-utils</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>v1.0.3</version>
 		</dependency>
 		<dependency>
-			<groupId>pe.edu.galaxy.training.java.libs</groupId>
+			<groupId>com.github.GalaxyTrainingPublic</groupId>
 			<artifactId>galaxy-started-library-security</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>v1.0.0</version>
 		</dependency>
 		<dependency>
-			<groupId>pe.edu.galaxy.training.java.libs</groupId>
+			<groupId>com.github.GalaxyTrainingPublic</groupId>
 			<artifactId>galaxy-started-library-architecture</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>v1.0.1</version>
 		</dependency>
 
 		<!-- Testing -->
